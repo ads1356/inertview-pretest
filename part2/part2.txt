@@ -1,0 +1,10 @@
+	###Part 2. Please submit a solution to the situation described below:
+
+- According to the following feature-extraction architecture, please calculate the total time-cost to accomplish a 52 million image-feature-extraction task and submit your calculating process. 
+- Resource:
+	- Vfe = 160(photo/seconds)
+	- Internal Server uses HDD & FP cluster (E5-2680*2) uses SDD  
+	- All bandwith >= 20M/s
+
+
+	计算每一个步骤的一张图片经过处理的时间，选择时间最长的步骤t，乘以所有图片数量，就是所求。

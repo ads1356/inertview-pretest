@@ -1,0 +1,20 @@
+##Part 1. Please submit your program to the following question: 
+**Question 1:**
+
+- Resource:
+	- Working environment : ubuntu 16.04.
+	- Assuming that there existed a folder containing over 10 million images. 
+	- Assuming that each image was named in format PERSONALID_NAME(e.g 110102193502033321_张三)
+	- Certain amount of images were monochrome that we do not want to use in feature extraction. 
+
+- To be submitted:
+	- A Readme file 
+	- An excutable program that implement the following functionalities:
+		- Eliminate all monochrome images
+		- Modify naming format for all images to NAME_GENDER_PERSONALID (e.g 张三_男_110102193502033321).
+
+
+
+1、遍历所有图片，选择匹配黑白图片，进行删除;(未完成)
+2、遍历所有图片，更改每个图片的名字.(已完成)
+3、在linux环境下，使用shell脚本完成这些事。
